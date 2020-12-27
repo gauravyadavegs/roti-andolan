@@ -1,0 +1,49 @@
+.causes-details {
+    box-shadow: 0px 10px 20px #2E319211;;
+}
+
+.causes-tag {
+    background: #E5EAF2;
+    font-size: 16px;
+    padding: 3px 10px;
+    border-radius: 4px;
+
+    a, span {
+        color: $color-main;
+    }
+}
+
+.causes-content {
+    padding: 30px;
+
+    h4 {
+        color: $color-black;
+        font-size: 30px;
+        letter-spacing: 0;
+        font-weight: 500;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    p {
+        font-size: 16px;
+        letter-spacing: 0px;
+        color: #666;
+        font-weight: 400;
+        font-family: var(--secondary-font);
+        line-height: 30px;
+    }
+}
+
+.causes-content-box .cbox-item {
+    p {
+        color: #7d7977;
+    }
+}
+
+.causes-mission {
+    h5 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,185 @@
+.footer-area {
+    background: $color-black;
+
+    .footer-top {
+        .widget{
+            &.widget_nav_menu {
+                ul li {
+        
+                    a {
+                        color: $color-white !important;
+                        font-size: 16px;
+                        padding: 0px;
+                        letter-spacing: 0px;
+                        font-weight: 400;
+                        transition: padding .5s;
+                        font-family: var(--secondary-font);
+
+                        @media only screen and (max-width: 1400px) {
+                            padding: 0px 10px;
+                        }
+        
+                        &:after {
+                            display: none;
+                        }
+
+                        &:hover {
+                            font-weight: 600;
+
+                            i {
+                                opacity: 1;
+                                margin-right: 5px;
+                            }
+                        }
+
+                        i {
+                            font-size: 12px;
+                            position: relative;
+                            top: -2px;
+                            opacity: 0;
+                            transition: all .5s;
+                            margin-right: -15px;
+                        }
+                    }
+                }
+            } 
+        }
+    }
+
+    .copyright-area-inner {
+        font-size: 15px;
+        padding: 20px 0px;
+        font-family: var(--secondary-font);
+        font-weight: 400;
+        color: $color-white;
+        background: #113D87;
+
+        text-align: center;
+        a {
+            font-weight: 600;
+        }
+
+        i {
+            color: $danger;
+        }
+    }
+}
+
+.footer-style-2 {
+    .footer-logo img {
+        margin-top: 0px;
+    }
+}
+
+.footer-bg {
+    background: url(../img/bg/footer.png);
+    background-position: 50% 15%;
+}
+
+.contact-widget {
+    background-color: $color-white !important;
+    padding: 80px 30px 65px 30px !important;
+    box-shadow: 0px 25px 80px #0000001F;
+    margin-top: -45px;
+    margin-bottom: 45px;
+
+    p {
+        color: $color-para !important;
+        font-size: 16px;
+        letter-spacing: 0px;
+        font-family: var(--secondary-font);
+    }
+
+    .contact_info_list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-top: 45px;
+
+        li{
+            display: block;
+            &.single-info-item{
+                position: relative;
+                margin-bottom: 15px;
+                .icon{
+                    position: absolute;
+                    left: 0;
+                    top: 0px;
+                    color: $color-para;
+                }
+                .details{
+                    padding-left: 30px;
+                    color: $color-para;
+                    font-size: 16px;
+                    font-family: var(--secondary-font);
+                }
+            }
+            
+        }
+    }
+
+    .footer-social {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        margin-top: 42px;
+
+        li {
+            list-style: none;
+            float: left;
+            margin: 0;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba($color-main, .10);
+            line-height: 43px;
+            text-align: center;
+            margin-left: 15px;
+            transition: all .5s;
+
+            &:first-child {
+                margin-left: 0px;
+            }
+
+            a {
+                color: $color-main !important;
+            }
+
+            &:hover {
+                background: $color-main;
+
+                a {
+                    color: $color-white !important;
+                }
+            }
+        }
+    }
+}
+
+.instagram-feed {
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style: none;
+        float: left;
+        margin: 0 7px 7px 0px !important;
+        overflow: hidden;
+
+        a {
+            img {
+                border-radius: 5px;
+                transition: all 0.5s ease;
+
+                &:hover {
+                    transform: scale(1.1) rotate(2deg);
+                    border-radius: 18px;
+                }
+            }
+        }
+    }
+}
+
+.margin-lg-top-80 {
+    margin-top: 80px;
+}

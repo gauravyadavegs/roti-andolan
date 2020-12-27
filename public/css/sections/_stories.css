@@ -1,0 +1,7 @@
+.stories-area {
+  position: relative; }
+  .stories-area::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%; }
