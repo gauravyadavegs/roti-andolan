@@ -1,0 +1,195 @@
+// controller wrapper style 01
+.controler-wrapper-style-01 {
+    margin-top: -65px;
+    padding-left: 50%;
+    color: $color-white;
+    position: absolute;
+
+    .active-controler {
+        font-size: 20px;
+        letter-spacing: 0.025em;
+        color: $color-white;
+    }
+
+    .progressbar {
+        width: 450px;
+        float: left;
+        height: 6px;
+        position: relative;
+        top: 15px;
+        margin-right: 20px;
+
+        .home-slider-progress {
+            background-color: #2E6EC2;
+            position: absolute;
+            width: 400px;
+            height: 3px;
+        }                        
+        .home-slider-progress-active {
+            background-color: $color-white;
+            position: absolute;
+            width: 100px;
+            height: 2px;
+            top: 0px;
+        }
+    }
+
+    .total-controler {
+        text-align: right;
+        font-size: 15px;
+        letter-spacing: 0.025em;
+        color: $color-white;
+    }
+
+    span {
+        position: relative;
+    }
+}
+
+// controller wrapper style 02
+.controler-wrapper-style-02 {
+    color: $color-white;
+    margin-top: 200px;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+
+    .active-controler {
+        font-size: 20px;
+        letter-spacing: 0.025em;
+        color: $color-white;
+    }
+
+    .progressbar {
+        height: 280px;
+        position: relative;
+        margin-left: 22px;
+        margin-bottom: 20px;
+
+        .slider-progress {
+            background-color: #6d6c6c;
+            position: absolute;
+            width: 2px;
+            height: 280px;
+        }                        
+        .slider-progress-active {
+            background-color: $color-white;
+            position: absolute;
+            width: 2px;
+            height: 70px;
+            top: 0px;
+        }
+    }
+
+    .total-controler {
+        text-align: right;
+        font-size: 15px;
+        letter-spacing: 0.025em;
+        color: $color-white;
+    }
+}
+
+// controller wrapper style 03
+.controler-wrapper-style-03 {
+    margin-top: -65px;
+    padding-left: calc(15% + 150px);
+    color: $color-white;
+    position: absolute;
+
+    .active-controler {
+        font-size: 20px;
+        letter-spacing: 0.025em;
+        color: $color-white;
+    }
+
+    .progressbar {
+        width: 400px;
+        float: left;
+        height: 6px;
+        position: relative;
+        top: 15px;
+        margin-right: 20px;
+
+        .home-slider-progress {
+            background-color: #2E6EC2;
+            position: absolute;
+            width: 400px;
+            height: 2px;
+        }                        
+        .home-slider-progress-active {
+            background-color: $color-white;
+            position: absolute;
+            width: 100px;
+            height: 2px;
+            top: 0px;
+        }
+    }
+
+    .total-controler {
+        text-align: right;
+        font-size: 15px;
+        letter-spacing: 0.025em;
+        color: $color-white;
+    }
+
+    span {
+        position: relative;
+    }
+}
+
+// controller wrapper style 04
+.controler-wrapper-style-04 {
+    margin-top: -65px;
+    padding-right: 0;
+    color: $color-white;
+    position: absolute;
+    transform: rotate(90deg);
+    right: 0;
+    display: flex;
+    left: 82%;
+    width: 485px;
+    top: 55%;
+
+    .active-controler {
+        font-size: 18px;
+        letter-spacing: 0.025em;
+        color: $color-white;
+    }
+
+    .progressbar {
+        width: 300px;
+        float: left;
+        height: 6px;
+        position: relative;
+        top: 15px;
+        margin-right: 20px;
+        margin-left: 20px;
+
+        .home-slider-progress {
+            background-color: #2E6EC2;
+            position: absolute;
+            width: 300px;
+            height: 2px;
+        }                        
+        .home-slider-progress-active {
+            background-color: $color-white;
+            position: absolute;
+            width: 100px;
+            height: 2px;
+            top: 0px;
+        }
+    }
+
+    .total-controler {
+        text-align: right;
+        font-size: 18px;
+        letter-spacing: 0.025em;
+        color: $color-white;
+    }
+
+    span {
+        position: relative;
+    }
+}
+
+

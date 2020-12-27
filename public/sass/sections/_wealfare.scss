@@ -1,0 +1,39 @@
+.wealfer-area {
+    background: url(../img/wealfer.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    position: relative;
+    background-color: #f6f6f6;
+}
+.wealfare-box {
+    box-shadow: 0px 20px 80px #2E319211;
+    background: $color-white;
+    left: -100px;
+    text-align: center;
+    padding: 40px 50px 60px 50px;
+    border-radius: 26px;
+    z-index: 4;
+    position: relative;
+
+    &:before {
+        position: absolute;
+        height: calc(100% - 30px);
+        width: 100%;
+        content: '';
+        background: rgba(255, 255, 255, 0.2);
+        left: 30px;
+        z-index: -1;
+        border-radius: 26px;
+        top: 0px;
+    }
+
+    .wf-text1 {
+        font-size: 24px;
+        color: $color-main;
+    }
+    .wf-text2 {
+        font-size: 24px;
+        color: #727781;
+    }
+}

@@ -1,0 +1,46 @@
+
+/*---------------------------------------
+    ## Back Top
+---------------------------------------*/
+.back-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    color: var(--main-color);
+    background-color: $color-white;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    z-index: 99;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: none;
+
+    i {
+        animation: scrolltop 2s infinite;
+    }
+}
+
+@keyframes scrolltop {
+    from {
+        transform: translate3d( 0, 0px, 0);
+        filter: alpha(opacity=0);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    10% {
+        transform: translate3d( 0, -3px, 0);
+        filter: alpha(opacity=100);
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    }
+    to {
+        transform: translate3d( 0, -15px, 0);
+        filter: alpha(opacity=0);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+}

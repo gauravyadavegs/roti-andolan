@@ -1,0 +1,83 @@
+
+.table-responsive {
+    display: inline-table !important;
+}
+
+.faq-area {
+    .accordion-style-2 {
+        width: 100%;
+
+        .card {
+            border: none;
+            border-bottom: 1px solid #ddd;
+
+            &:last-child {
+                border-bottom: 0px;
+            }
+
+            +.card {
+                margin-top: 0px;
+            }
+            background-color: transparent;
+            border-radius: 0px;
+
+            .card-header {
+                padding: 0;
+                border: none;
+                background: transparent;
+
+                a {
+                    display: block;
+                    font-size: 30px;
+                    line-height: 28px;
+                    padding: 35px 0px;
+                    color: #404040;
+                    text-decoration: none;
+                    font-family: var(--body-font);
+                    letter-spacing: 0.21px;
+                    font-weight: 500;
+                    padding-right: 50px;
+                    cursor: pointer;
+                    position: relative;
+
+                    &:after{
+                        position: absolute;
+                        right: 30px;
+                        top: 35px;
+                        font-family: "fontawesome";
+                        font-size: 20px;
+                        color: #666;
+                    }
+                    &[aria-expanded="false"]{
+                        &:after{
+                            content: "\f067";
+                        }
+                    }
+                    &[aria-expanded="true"]{
+                        color: $color-main;
+                        &:after{
+                            content: "\f068";
+                            color: $color-main;
+                        }
+                    }
+                }
+            }
+            .card-body {
+                padding: 0px 0px 20px 0px; 
+                color: #404040;
+                text-decoration:none;
+                font-family: var(--body-font);
+                font-size: 15px;
+                letter-spacing: 0.21px;
+                font-weight: 400;
+
+                p {
+                    padding-left: 30px;
+                    font-size: 16px;
+                    font-family: var(--secondary-font);
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}

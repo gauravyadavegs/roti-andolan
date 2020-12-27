@@ -1,0 +1,51 @@
+.action-soon-content {
+    position: relative;
+    padding-left: 50px;
+
+    &:before {
+        position: absolute;
+        content: '';
+        width: calc(100% - 35px);
+        height: calc(100% - 20px);
+        border: 2px solid #F5F5F5;
+        top: 40px;
+        left: 12px;
+        z-index: -1;
+        border-radius: 10px;
+        transition: all .3s;
+    }
+    .act-img {
+        img {
+            border-radius: 10px;
+        }
+    }
+    .subtitle {
+        font-size: 16px;
+        color: $color-main;
+        letter-spacing: 0;
+        margin-bottom: 0px;
+        margin-top: 24px;
+    }
+    .title {
+        font-size: 24px;
+        color: $color-black;
+        font-weight: 500;
+        transition: all .3s;
+    }
+    .readMore {
+        font-size: 18px;
+        color: #666;
+    }
+
+    &:hover {
+        .title, .subtitle {
+            color: $color-white;
+        }
+        &:before {
+            background: $color-main;
+        }
+        .btn-wrapper, .readMore {
+            color: $color-white;
+        }
+    }
+}

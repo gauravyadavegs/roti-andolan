@@ -1,0 +1,22 @@
+.brand-area {
+    background: #fff;
+    z-index: 999;
+}
+
+.brant-item {
+    width: 20%;
+    float: left;
+    margin: 50px 0px;
+    text-align: center;
+    display: flex !important;
+    justify-content: center;
+
+    img {
+        max-width: 116px;
+        max-height: 92px;
+    }
+}
+
+.grey-bg .brant-item {
+    margin: 70px 0px !important;
+}

@@ -1,0 +1,50 @@
+.candidate-area {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+    .slick-prev, .slick-next {
+        background: rgba($color-main, 0.1);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        transition: all .3s;
+
+        &:hover {
+            background: $color-main;
+        }
+    }
+    .slick-prev {
+        right: 70px;
+        left: auto;
+        bottom: -80px;
+        top: auto;
+        z-index: 9;
+
+        &:before {
+            content: "\f104";
+            font-family: 'fontawesome';
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 120px;
+            height: 2px;
+            background: $color-main;
+            transform: rotate(-65deg);
+            top: 60px;
+            left: 5px;
+        }
+    }
+    .slick-next {
+        right: 0px;
+        left: auto;
+        bottom: -145px;
+        top: auto;
+
+        &:before {
+            content: "\f105";
+            font-family: 'fontawesome';
+        }
+    }
+}
