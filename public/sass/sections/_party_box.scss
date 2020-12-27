@@ -1,0 +1,20 @@
+.party-box-wrapper {
+    border: 2px solid #F5F5F5;
+    padding: 75px 100px 65px 100px;
+    background: #f6f6f6;
+}
+
+.party-box-content {
+    h4 {
+        font-size: 55px;
+        line-height: 60px;
+        font-weight: 700;
+    }
+    p {
+        font-size: 16px;
+        font-family: var(--secondary-font);
+        color: $color-para;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+}

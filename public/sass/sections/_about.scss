@@ -1,0 +1,14 @@
+.about-banner {
+    position: relative;
+    margin-bottom: 50px;
+
+    .img-wrapper {
+        position: absolute;
+        top: -260px;
+        left: 33%;
+
+        img {
+            max-width: 60%;
+        }
+    }
+}

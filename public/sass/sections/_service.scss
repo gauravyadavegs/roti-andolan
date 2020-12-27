@@ -1,0 +1,19 @@
+.hover-style-01 {
+    position: relative;
+
+    &:before {
+        position: absolute;
+        content: '';
+        width: 1px;
+        height: 3px;
+        background: $color-main;
+        top: 0px;
+        left: 0;
+        width: 0;
+        transition: all .6s;
+    }
+    &:hover:before {
+        width: 100%;
+        transition: all .6s;
+    }
+}

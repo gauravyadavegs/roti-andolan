@@ -1,0 +1,34 @@
+.choose-box {
+    margin-top: 30px;
+    .ch-icon {
+        i:before {
+            font-size: 40px;
+            color: $color-main;
+        }
+    }
+    h4 {
+        margin-top: 15px;
+    }
+    p {
+        font-family: var(--secondary-font);
+    }
+}
+
+.choose-content {
+    .btn-wrapper {
+        margin-top: 30px;
+
+        &:hover {
+            color: $color-main;
+        }
+
+        a {
+            text-decoration: underline;
+            font-size: 18px;
+        }
+
+        &:hover a {
+            color: $color-main;
+        }
+    }
+}
