@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /*
 Theme Name: Bausins
-Theme URI: 
-Author: 
-Author URI: 
+Theme URI:
+Author:
+Author URI:
 Description: Bausins is a business website template
 Version: 1.0.0
 */
@@ -2087,7 +2087,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       font-size: 15px; }
 
 /*----------------------------------------------
-    # Nav bar 
+    # Nav bar
 ----------------------------------------------*/
 .navbar-area {
   padding: 0;
@@ -2879,7 +2879,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .banner-style-2 {
   position: relative;
-  background: url(../img/banner/5.png);
+  background: url(../images/banner/5.png);
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -2931,12 +2931,12 @@ ul.wp-block-latest-posts.is-grid.alignwide {
           color: #fff; }
 
 .banner-bg-1 {
-  background: url(../img/banner/4.png);
+  background: url(../images/banner/4.png);
   background-size: cover;
   background-position: center center; }
 
 .banner-bg-3 {
-  background: url(../img/banner/bg3.jpg);
+  background: url(../images/banner/bg3.jpg);
   background-size: cover;
   background-position: center center; }
 
@@ -2951,9 +2951,11 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #171717; }
+    background: #171717;
+    background-image: url("../images/back2.jpg");
+   }
   .banner-style-3 .title {
-    font-size: 80px;
+    font-size: 65px;
     color: #fff;
     font-weight: 700;
     line-height: 80px;
@@ -2966,7 +2968,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .banner-style-4 {
   position: relative;
-  background: url(../img/banner/3.png);
+  background: url(../images/banner/3.png);
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -4268,7 +4270,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   margin-top: 0px; }
 
 .footer-bg {
-  background: url(../img/bg/footer.png);
+  background: url(../images/bg/footer.png);
   background-position: 50% 15%; }
 
 .contact-widget {
@@ -4373,7 +4375,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   margin-top: 15px; }
 
 .journey-box-area {
-  background: url(../img/about-shape.png);
+  background: url(../images/about-shape.png);
   background-repeat: no-repeat; }
 
 .journey-box-wrapper {
@@ -5132,7 +5134,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   margin-bottom: 50px; }
 
 .wealfer-area {
-  background: url(../img/wealfer.png);
+  background: url(../images/wealfer.png);
   background-position: top right;
   background-repeat: no-repeat;
   min-height: 700px;
@@ -6914,17 +6916,17 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       width: 100%;
       height: 100%; }
       .info-popup-content__img--one {
-        background-image: url(../img/modal/one.png);
+        background-image: url(../images/modal/one.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover; }
       .info-popup-content__img--two {
-        background-image: url(../img/blog-bg.png);
+        background-image: url(../images/blog-bg.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover; }
       .info-popup-content__img--three {
-        background-image: url(../img/slide-three.jpg);
+        background-image: url(../images/slide-three.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -7010,17 +7012,17 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       width: 100%;
       height: 100%; }
       .location-popup-content__img--one {
-        background-image: url(../img/modal/two.png);
+        background-image: url(../images/modal/two.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover; }
       .location-popup-content__img--two {
-        background-image: url(../img/blog-bg.png);
+        background-image: url(../images/blog-bg.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover; }
       .location-popup-content__img--three {
-        background-image: url(../img/slide-three.jpg);
+        background-image: url(../images/slide-three.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -7813,7 +7815,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     width: 85%;
     height: calc(100% - 82px);
     content: '';
-    background: url(../../assets/img/action/5.png);
+    background: url(../../assets/images/action/5.png);
     border-radius: 10px;
     z-index: -1;
     right: 0px;

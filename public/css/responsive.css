@@ -41,22 +41,22 @@
         padding: 20px 10px;
         font-size: 14px;
     }
-    .contact-info-area.margin-top-170, .our-service-area.margin-top-170, .politx-content-area.margin-top-170, .event-box-area.margin-top-165, .leadership-area, 
+    .contact-info-area.margin-top-170, .our-service-area.margin-top-170, .politx-content-area.margin-top-170, .event-box-area.margin-top-165, .leadership-area,
     .faq-area.margin-top-230, .blog-area.margin-top-170, .about-member-count.margin-top-170, .guest-area.margin-top-170, .blog-area.margin-top-165 {
         margin-top: 120px !important;
     }
     .faq-area.padding-top-135 {
         padding-top: 100px;
     }
-    
+
     .controler-wrapper-style-04 {
         left: 77%;
     }
-    
+
     .breadcrumb-style-02 .breadcrumb-img {
         transform: scale(.8);
     }
-    
+
     .breadcrumb-style-02::after {
         display: none;
     }
@@ -330,7 +330,7 @@
     }
     .content-box-style-05 {
         padding: 70px 30px;
-    } 
+    }
     .content-box-style-08 .title {
         font-size: 30px;
     }
@@ -438,7 +438,7 @@
     .banner-asnavfor-style-01 .border1, .banner-asnavfor-style-01 .border2, .banner-asnavfor-style-01 .border3, .banner-asnavfor-style-01 .border4 {
         opacity: 0.5;
     }
-    
+
     .widget ul {
         text-align: left;
     }
@@ -512,7 +512,7 @@
     .navbar-area .nav-container {
         max-width: 90%;
     }
-    
+
     .breadcrumb-style-02::after {
         display: none;
     }
@@ -536,7 +536,7 @@
     .footer-area .copyright-area-inner {
         padding: 20px;
     }
-    
+
     .navbar-expand-lg .navbar-collapse {
         margin-top: 0px;
     }
@@ -864,7 +864,7 @@
     .banner3-social, .video-btn-style-04 {
         display: none;
     }
-  
+
     .choose-area.margin-top-170 {
         margin-top: 120px !important;
     }
@@ -908,7 +908,7 @@
         width: 100%;
         position: relative;
     }
-    
+
     .responsive-mobile-menu .navbar-toggler {
         position: absolute;
         left: calc(100% - 130px);
@@ -916,7 +916,7 @@
     }
     .table-responsive {
         display: block !important;
-    } 
+    }
     .banner-asnavfor-img-01, .scroll-style-01, .banner-asnavfor-style-01 .slick-prev, .banner-asnavfor-style-01 .slick-next, .social-icon-style-01 {
         display: none !important;
     }
@@ -1009,7 +1009,7 @@
     .logo img {
         max-width: 60%;
         margin-left: 10px;
-    } 
+    }
     .navbar-area .logo {
         padding-top: 0px !important;
     }
@@ -1178,14 +1178,14 @@
     }
     .banner-asnavfor-text-01 .banner-inner .margin-top-50 {
         margin-top: 25px !important;
-    } 
+    }
     .controler-wrapper-style-01 {
         margin-top: -40px;
         padding-left: 10%;
-    } 
+    }
     .up-event-content {
         padding: 0px 15px 50px 15px;
-    }  
+    }
     .icon-box-style-03.margin-top-50 {
         margin-top: 0px !important;
     }
@@ -1253,7 +1253,7 @@
     .nav-right-part ul li {
         margin-right: 10px;
     }
-    
+
     .upcoming-box .ub-content {
         padding-top: 120px;
     }
@@ -1269,7 +1269,7 @@
     }
 }
 
-@media only screen and (max-width: 320px){ 
+@media only screen and (max-width: 320px){
     .coming-content #clockdiv > div {
         width: 60px;
         height: 60px;

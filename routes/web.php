@@ -15,13 +15,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('home',[HomeController::class, 'getHomePage']);
+Route::get('home',[HomeController::class, 'getHomePage']);
 
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/',[HomeController::class, 'getHomePage']);
 
-// Auth::routes();
+Auth::routes();
+
+Route::get('/admin',[App\Http\Controllers\AdminController::class,'index']);
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
