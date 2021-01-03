@@ -41,7 +41,6 @@
 </head>
 <body>
 
-    <!-- preloader area start -->
     <div class="preloader" id="preloader">
         <div class="preloader-inner">
             <div class="spinner">
@@ -69,17 +68,17 @@
         <button class="sidebar-menu-close"><i class="flaticon-close"></i></button>
         <div class="sidebar-inner">
             <div class="sidebar-logo">
-                <img src="/images/logo.png" alt="logo"/>
+                <img src="/images/Roti-Andolan-logo.png" alt="logo"/>
             </div>
             <div class="sidemenu-text">
-                <p>We believe brand interaction is key in commu- nication. Real inno vations and a positive customer experience are the heart of successful commu- nication.</p>
+                <p>Don’t you feel that the starving and the needy deserve at least one full meal once a day? Does it not haunt you that millions of our countrymen are starving but have no voice to express hunger or ask for food? If you do then you are welcome to join our movement.</p>
             </div>
             <div class="sidebar-contact">
                 <h4>Contact Us</h4>
                 <ul>
-                    <li><i class="fa fa-map-marker"></i>Lavaca Street, Suite 2000</li>
-                    <li><i class="fa fa-envelope"></i>email@evha.com</li>
-                    <li><i class="fa fa-phone"></i>(+880) 172570051</li>
+                    <li><i class="fa fa-map-marker"></i>A-2,Suraj Park,Opp.Badli Industrial Area, Sector-18.Rohini,Delhi-110042 India</li>
+                    <li><i class="fa fa-envelope"></i>rotiandolan@gmail.com</li>
+                    <li><i class="fa fa-phone"></i>(+91)-9654179199</li>
                 </ul>
             </div>
             <div class="sidebar-subscribe">
@@ -88,10 +87,11 @@
             </div>
             <div class="social-link">
                 <ul>
-                    <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                    <li><a target="blank" href="https://www.facebook.com/Roti-Andolan-108679101099788/"><i class="fa fa-facebook-f"></i></a></li>
+
+                    <li><a href="https://www.instagram.com/rotiandolan/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=org.rotimovement.app"><i class="fa fa-android"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCkO-YGgpJV0jeA7MCRJemHw"><i class="fa fa-youtube"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -117,25 +117,30 @@
                 <div class="collapse navbar-collapse" id="billatrail_main_menu">
                     <ul class="navbar-nav menu-open">
 
+                        <!-- <li><a href="#">Home</a></li> -->
                         <li><a href="#aboutdiv">About Us</a></li>
-                        <li><a href="#blogdiv">News</a></li>
+                        <li><a href="#aboutdiv">Latest News</a></li>
+
                         <li><a href="#contactdiv">Contact Us</a></li>
+                        <li><a href="#contactdiv">Become a Volunteer</a></li>
+                        <li><a href="#donatebtn">Donate Now</a></li>
+
 
 
 
 
                     </ul>
                 </div>
-                <!-- <div class="nav-right-part">
+                <div class="nav-right-part">
                     <ul>
-                        <li class="search" id="search">
+                        <!-- <li class="search" id="search">
                             <a href="#"><i class="fa fa-search"></i></a>
-                        </li>
+                        </li> -->
                         <li class="menubar d-none d-lg-block" id="navigation-button">
                             <a><i class="flaticon-menu-button"></i></a>
                         </li>
                     </ul>
-                </div> -->
+                </div>
             </div>
         </nav>
     </div>
@@ -144,6 +149,9 @@
     <!-- banner start -->
     <div class="banner-style-3 banner-bg-1 d-flex align-items-center">
         <div class="container-fluid">
+            <!-- <div class="background-wrap">
+                <video id="video-bg-elem" preload="auto" autoplay loop muted="muted" width="100%" height="400" src="https://app.coverr.co/s3/mp4/Over-the-Map.mp4" type="video/mp4"></video>
+              </div> -->
             <div class="row">
                 <div class="col-md-7 offset-md-2 col-xl-5 offset-xl-2 banner-slider-4">
                     <div class="banner-content-style-3">
@@ -154,16 +162,16 @@
                         </p>
                         <div class="d-flex margin-top-50">
                             <div class="btn-wrapper mr-4" data-animation-in="fadeInDown">
-                                <a class="btn btn-custom-default" href="#">Learn More</a>
+                                <a class="btn btn-custom-default" target="blank" href="https://play.google.com/store/apps/details?id=org.rotimovement.app">Download App</a>
                             </div>
                             <div class="btn-wrapper" data-animation-in="fadeInDown">
                                 <a class="btn btn-custom-white" href="#">Become Volunteer</a>
                             </div>
                         </div>
                     </div>
-                    <div class="banner-content-style-3">
+                    <!-- <div class="banner-content-style-3">
                         <h2 class="title" data-animation-in="fadeInLeft">Roti Movement</h2>
-                        <!-- <p class="description" data-animation-in="fadeInDown">Lorem ipsum dummy text are used in this section so replace your text here. Lorem ipsum dummy lorem ipsum dummy text are used in this section</p> -->
+                        <p class="description" data-animation-in="fadeInDown">Lorem ipsum dummy text are used in this section so replace your text here. Lorem ipsum dummy lorem ipsum dummy text are used in this section</p>
                         <div class="d-flex margin-top-50">
                             <div class="btn-wrapper mr-4" data-animation-in="fadeInDown">
                                 <a class="btn btn-custom-default" href="#">Learn More</a>
@@ -172,7 +180,7 @@
                                 <a class="btn btn-custom-white" href="#">Become Volunteer</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- <div class="banner-content-style-3">
                         <h2 class="title" data-animation-in="fadeInLeft">We can make our city great again</h2>
                         <p class="description" data-animation-in="fadeInDown">Lorem ipsum dummy text are used in this section so replace your text here. Lorem ipsum dummy lorem ipsum dummy text are used in this section</p>
@@ -191,9 +199,10 @@
         <div class="banner3-social">
             <ul>
                 <li><a target="blank" href="https://www.facebook.com/Roti-Andolan-108679101099788/"><i class="fa fa-facebook-f"></i></a></li>
-                <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
                 <li><a href="https://www.instagram.com/rotiandolan/"><i class="fa fa-instagram"></i></a></li>
-                <!-- <li><a href="#"><i class="fa fa-pinterest"></i></a></li> -->
+                <li><a href="https://play.google.com/store/apps/details?id=org.rotimovement.app"><i class="fa fa-android"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCkO-YGgpJV0jeA7MCRJemHw"><i class="fa fa-youtube"></i></a></li>
+
             </ul>
         </div>
         <!-- video button -->
@@ -221,22 +230,21 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-6 offset-lg-1 align-self-center">
+                <div class="col-lg-6 offset-lg-1 align-self-center" id="donatebtn">
                     <div class="donate-area">
                         <form action="#">
                             <ul class="donate-ul">
-                                <li data-amount="5">$5</li>
-                                <li data-amount="10">$10</li>
-                                <li data-amount="20">$20</li>
-                                <li data-amount="50">$50</li>
-                                <li data-amount="100">$100</li>
-                                <li data-amount="500">$500</li>
+                                <li >  <a href="https://rzp.io/l/fSYfEmZxS"> ₹ 500</a></li>
+                                <li ><a href="https://rzp.io/l/uOSoDdCte"> ₹ 1000</a></li>
+                                <li ><a href="https://rzp.io/l/YYNIXeEA"> ₹ 2000</a></li>
+                                <li><a href="https://rzp.io/l/jrW1OKQLt"> ₹ 5000</a></li>
+                                <li><a href="https://rzp.io/l/up8AEWYud0"> ₹ 10000</a></li>
                                 <li>
-                                    <input class="form-control" placeholder="Custom $" type="text" name="custom" id="custom" value="" onfocus="this.placeholder=''" onblur="this.placeholder='Custom $'">
                                 </li>
                             </ul>
                             <div class="btn-wrapper">
-                                <button class="btn btn-red" type="button">Donate Now</button>
+                                <a href="https://rzp.io/l/uRg2D4oS">
+                                <button class="btn btn-red" type="button">Donate Another Amount</button></a>
                             </div>
                         </form>
                     </div>
@@ -269,9 +277,9 @@
                             <a href="#"><i class="flaticon-achievement"></i></a>
                         </div>
                         <div class="sb-content">
-                            <h4 class="title">Our manifesto and vision.</h4>
+                            <h4 class="title">Our manifesto and <br> vision.</h4>
                             <div class="btn-wrapper">
-                                <a class="btn btn-custom-primary" href="#">Get Register</a>
+                                <a class="btn btn-custom-primary" href="#aboutdiv">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -282,7 +290,7 @@
                             <a href="#"><i class="flaticon-financial"></i></a>
                         </div>
                         <div class="sb-content">
-                            <h4 class="title">Donate and help us</h4>
+                            <h4 class="title">Donate and <br> help us</h4>
                             <div class="btn-wrapper">
                                 <a class="btn btn-custom-primary" href="#">Get Register</a>
                             </div>
@@ -305,7 +313,7 @@
             <div class="row margin-top-55 margin-bottom-100">
                 <div class="col-lg-6">
                     <div class="map-img">
-                        <img src="/images/map.png" alt="">
+                        <img src="/images/map2.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-5 offset-lg-1 align-self-center">
@@ -320,7 +328,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-12">
                     <h2 class="section-title">Roti is our right</h2>
                 </div>
@@ -333,12 +341,12 @@
 
                         </p>
                         <br>
-                        <!-- <div class="btn-wrapper">
+                        <div class="btn-wrapper">
                             <a class="btn btn-custom-primary" href="#">Learn more</a>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <!-- location area end -->
@@ -382,7 +390,7 @@
                             <a href="#"><i class="flaticon-notes"></i></a>
                         </div>
                         <div class="sb-content">
-                            <h4 class="title countdown">8521</h4>
+                            <h4 class="title countdown">500</h4>
                             <p>Registered Members</p>
                         </div>
                     </div>
@@ -393,7 +401,7 @@
                             <a href="#"><i class="flaticon-volunteer"></i></a>
                         </div>
                         <div class="sb-content">
-                            <h4 class="title countdown">4567</h4>
+                            <h4 class="title countdown">23</h4>
                             <p>Campaign Done</p>
                         </div>
                     </div>
@@ -404,7 +412,7 @@
                             <a href="#"><i class="flaticon-seo"></i></a>
                         </div>
                         <div class="sb-content">
-                            <h4 class="title countdown">2345</h4>
+                            <h4 class="title countdown">15</h4>
                             <p>Coverage Areas</p>
                         </div>
                     </div>
@@ -415,8 +423,8 @@
                             <a href="#"><i class="flaticon-place"></i></a>
                         </div>
                         <div class="sb-content">
-                            <h4 class="title countdown">7854</h4>
-                            <p>Registered Members</p>
+                            <h4 class="title countdown">100</h4>
+                            <p>Donors</p>
                         </div>
                     </div>
                 </div>
@@ -526,11 +534,12 @@
         <div class="container">
             <div class="col-lg-12 party-box-wrapper d-flex flex-lg-row flex-column justify-content-lg-between justify-content-center text-lg-left text-center">
                 <div class="party-box-content">
-                    <h4>Be the part<br> of our party success....</h4>
-                    <p>Met dolore magna aliqua. Ut enim ad minim veniam exercitation</p>
+                    <h4>Be the part<br> of our change. </h4>
+                    <p>Roti is the first need, First give us roti.Then talk about anything
+                        else, and we will get ready to listen to everything else.</p>
                 </div>
                 <div class="btn-wrapper align-self-center">
-                    <a class="btn btn-custom-primary" href="#">Be a Volunteer</a>
+                    <a class="btn btn-custom-primary" href="#">Become a Volunteer</a>
                 </div>
             </div>
         </div>
@@ -660,8 +669,8 @@
                 <div class="row">
                     <div class="col-xl-4">
                         <div class="footer-widget widget contact-widget">
-                            <a href="home" class="footer-logo">
-                                <img src="/images/logo.jpeg" alt="footer logo">
+                            <a href="index.html" class="footer-logo">
+                                <img src="/images/Roti-Andolan-logo.png" alt="footer logo">
                             </a>
                             <p>Don’t you feel that the starving and the needy deserve at least one full meal once a day? Does it not haunt you that millions of our countrymen are starving but have no voice to express hunger or ask for food? If you do then you are welcome to join our movement.
                             </p>
@@ -679,7 +688,7 @@
                                         <i class="fa fa-envelope"></i>
                                     </div>
                                     <div class="details">
-                                        Rohini, Delhi
+                                        rotiandolan@gmail.com
                                     </div>
                                 </li>
                                 <li class="single-info-item">
@@ -687,15 +696,16 @@
                                         <i class="fa fa-map-marker"></i>
                                     </div>
                                     <div class="details">
-                                        evreneducation@gmail.com
+                                        A-2,Suraj Park,Opp.Badli Industrial Area, Sector-18.Rohini,Delhi-110042 India
                                     </div>
                                 </li>
                             </ul>
                             <ul class="footer-social">
-                                <li><a href="https://www.facebook.com/Roti-Andolan-108679101099788/"><i class="fa fa-facebook-f"></i></a></li>
-                                <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                                <li><a target="blank" href="https://www.facebook.com/Roti-Andolan-108679101099788/"><i class="fa fa-facebook-f"></i></a></li>
+
                                 <li><a href="https://www.instagram.com/rotiandolan/"><i class="fa fa-instagram"></i></a></li>
-                                <!-- <li><a href="#"><i class="fa fa-pinterest"></i></a></li> -->
+                                <li><a href="https://play.google.com/store/apps/details?id=org.rotimovement.app"><i class="fa fa-android"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCkO-YGgpJV0jeA7MCRJemHw"><i class="fa fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -706,7 +716,10 @@
                                     <h4 class="widget-title">Useful links</h4>
                                     <ul>
                                         <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Home</a></li>
-                                        <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Donate</a></li>
+                                        <li><a href="#aboutdiv"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>About Us</a></li>
+                                        <li><a href="#contactdiv"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Latest News</a></li>
+                                        <li><a href="#contactdiv"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Contact Us</a></li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -714,14 +727,14 @@
                                 <div class="footer-widget widget widget_nav_menu">
                                     <h4 class="widget-title">Take action</h4>
                                     <ul>
-                                        <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Contribute Now</a></li>
-                                        <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Register to Vote</a></li>
+                                        <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Become A Volunteer</a></li>
+                                        <li><a href="#donatebtn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Donate Now</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-lg-5">
                                 <div class="footer-widget widget">
-                                    <h4 class="widget-title">Subscribe Newslatter</h4>
+                                    <h4 class="widget-title">Subscribe Newsletter</h4>
                                     <div class="subscribe-form">
                                         <div class="input-group">
                                             <input type="text" class="form-control" placeholder="Type your mail">
@@ -735,7 +748,7 @@
                             </div>
                             <div class="col-xl-11 offset-xl-1">
                                 <div class="copyright-area-inner copyright-sm margin-top-35">
-                                    Copyrights@All rights reserved. Made with <i class="fa fa-heart"></i> <a href="https://evrenglobalsolutions.com/#/" target="_blank">Evren Global Solutions</a>
+                                    Copyrights@All rights reserved. Made with <i class="fa fa-heart"></i> by <a href="https://evrenglobalsolutions.com/#/" target="_blank">Evren Global Solutions Pvt. Ltd.</a>
                                 </div>
                             </div>
                         </div>
@@ -744,13 +757,20 @@
             </div>
         </div>
     </footer>
-    <!-- footer area end -->
-
-    <!-- back to top area start -->
-    <div class="back-to-top">
-        <span class="back-top"><i class="fa fa-angle-up"></i></span>
+    <!-- Members signup modal -->
+    <div id="membersModal" class="modal-dialog modal-lg" >
+        {{-- <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="myModalLabel">Modal header</h3>
+        </div>
+        <div class="modal-body">
+            <p>One fine body…</p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <button class="btn btn-primary">Save changes</button>
+        </div> --}}
     </div>
-    <!-- back to top area end -->
 
     <!-- jquery -->
     <script src="/js/vendor/jquery-2.2.4.min.js"></script>
@@ -782,11 +802,20 @@
     <script src="/js/vendor/swiper.min.js"></script>
     <!-- isotope -->
     <script src="/js/vendor/isotope.pkgd.min.js"></script>
+    <!-- members modal -->
+    <script src="/js/homeMemberModal.js"></script>
 
     <script src="/js/vendor/jquery.classyloader.js"></script>
 
     <!-- main js -->
     <script src="/js/script.js"></script>
     <script src="/js/main.js"></script>
+    <script>
+        (function(){
+          var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+          if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+          s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+          rzp && rzp.init && rzp.init()}})();
+      </script>
 </body>
 </html>
