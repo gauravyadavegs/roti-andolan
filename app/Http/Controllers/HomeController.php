@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -32,6 +33,7 @@ class HomeController extends Controller
      */
     public function getHomePage()
     {
-        return view('home');
+        $blogs = Blog::orderBy('DESC')->paginate(10);
+        return view('home',['blogs'=> $blogs]);
     }
 }

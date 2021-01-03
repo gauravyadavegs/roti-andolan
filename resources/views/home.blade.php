@@ -122,7 +122,9 @@
                         <li><a href="#aboutdiv">Latest News</a></li>
 
                         <li><a href="#contactdiv">Contact Us</a></li>
-                        <li><a href="#contactdiv">Become a Volunteer</a></li>
+                        <li><button style="background-color: transparent ; border-color:transparent" type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+                            Become a Volunteer
+                          </button></li>
                         <li><a href="#donatebtn">Donate Now</a></li>
 
 
@@ -165,7 +167,9 @@
                                 <a class="btn btn-custom-default" target="blank" href="https://play.google.com/store/apps/details?id=org.rotimovement.app">Download App</a>
                             </div>
                             <div class="btn-wrapper" data-animation-in="fadeInDown">
-                                <a class="btn btn-custom-white" href="#">Become Volunteer</a>
+                                <button style="color:black;background-color: white ; border-color:transparent" type="button" class="btn btn-primary btn-custom-white" data-toggle="modal" data-target="#staticBackdrop">
+                                    Become a Volunteer
+                                  </button>
                             </div>
                         </div>
                     </div>
@@ -265,8 +269,9 @@
                         </div>
                         <div class="sb-content">
                             <h4 class="title">Join movement as volunteer</h4>
-                            <div class="btn-wrapper">
-                                <a class="btn btn-custom-primary" href="#">Be Volunteer</a>
+                            <div class="btn-wrapper"><button type="button" class="btn btn-custom-primary" data-toggle="modal" data-target="#staticBackdrop">
+                                Be Volunteer
+                              </button>
                             </div>
                         </div>
                     </div>
@@ -539,7 +544,9 @@
                         else, and we will get ready to listen to everything else.</p>
                 </div>
                 <div class="btn-wrapper align-self-center">
-                    <a class="btn btn-custom-primary" href="#">Become a Volunteer</a>
+                    <button type="button" class="btn btn-custom-primary" data-toggle="modal" data-target="#staticBackdrop">
+                        Become a Volunteer
+                      </button>
                 </div>
             </div>
         </div>
@@ -735,14 +742,19 @@
                             <div class="col-lg-5">
                                 <div class="footer-widget widget">
                                     <h4 class="widget-title">Subscribe Newsletter</h4>
+                                    <form id="subscribe-newsletter-form" action="{{url('/create-volanteer')}}" method="POST">
+                                        @csrf
                                     <div class="subscribe-form">
                                         <div class="input-group">
-                                            <input type="text" class="form-control" placeholder="Type your mail">
+
+                                            <input type="text" class="form-control" name="email" required placeholder="Type your mail">
                                             <span class="input-group-btn">
-                                                <button class="btn btn-default submit-btn" type="button"><i class="flaticon-sent-mail"></i></button>
+                                                <button class="btn btn-default submit-btn" type="submit"><i class="flaticon-sent-mail"></i></button>
                                             </span>
                                         </div>
                                     </div>
+                                </form>
+
                                     <p class="description">We don't disclose your mail anywhere..</p>
                                 </div>
                             </div>
@@ -758,19 +770,41 @@
         </div>
     </footer>
     <!-- Members signup modal -->
-    <div id="membersModal" class="modal-dialog modal-lg" >
-        {{-- <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h3 id="myModalLabel">Modal header</h3>
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" style="position: relative; top:135px">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Become A Volanteer</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
+        <form id="members-form" action="{{url('/create-volanteer')}}" method="POST">
+            @csrf
         <div class="modal-body">
-            <p>One fine body…</p>
+
+                <div class="row">
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="name" required placeholder="Name">
+                  </div>
+                  <div class="col-12 mt-5">
+                    <input type="text" class="form-control" name="phone" required placeholder="Phone No">
+                  </div>
+                  <div class="col-12 mt-5">
+                    <input type="text" class="form-control" name="email" required placeholder="Email">
+                  </div>
+                </div>
         </div>
         <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-            <button class="btn btn-primary">Save changes</button>
-        </div> --}}
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+
+      </div>
     </div>
+  </div>
 
     <!-- jquery -->
     <script src="/js/vendor/jquery-2.2.4.min.js"></script>
