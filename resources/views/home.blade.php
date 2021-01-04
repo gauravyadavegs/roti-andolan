@@ -238,11 +238,11 @@
                     <div class="donate-area">
                         <form action="#">
                             <ul class="donate-ul">
-                                <li >  <a href="https://rzp.io/l/fSYfEmZxS"> ₹ 500</a></li>
-                                <li ><a href="https://rzp.io/l/uOSoDdCte"> ₹ 1000</a></li>
-                                <li ><a href="https://rzp.io/l/YYNIXeEA"> ₹ 2000</a></li>
-                                <li><a href="https://rzp.io/l/jrW1OKQLt"> ₹ 5000</a></li>
-                                <li><a href="https://rzp.io/l/up8AEWYud0"> ₹ 10000</a></li>
+                                <li >  <a href="https://rzp.io/l/fSYfEmZxS"> ₹ 501</a></li>
+                                <li ><a href="https://rzp.io/l/uOSoDdCte"> ₹ 1100</a></li>
+                                <li ><a href="https://rzp.io/l/YYNIXeEA"> ₹ 2100</a></li>
+                                <li><a href="https://rzp.io/l/jrW1OKQLt"> ₹ 5100</a></li>
+                                <li><a href="https://rzp.io/l/up8AEWYud0"> ₹ 11000</a></li>
                                 <li>
                                 </li>
                             </ul>
