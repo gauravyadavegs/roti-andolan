@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\HomeController;
+use App\Models\Blog;
 use App\Models\Member;
 use Illuminate\Http\Request;
 
@@ -14,8 +15,9 @@ class MemberController extends Controller
         $form_data = $request->all();
 
         $member = Member::create($form_data);
+        $blogs = Blog::orderBy('created_at', 'desc')->paginate(10);
 
-        return redirect()->route('home');
+        return view('home',['blogs'=> $blogs]);
     }
 
     private function validateMemberForm($request)

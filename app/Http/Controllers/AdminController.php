@@ -30,7 +30,9 @@ class AdminController extends Controller
             $members_list = Member::paginate(100);
             return view('membersList', ['members' => $members_list]);
         } else {
-            return view('home');
+        $blogs = Blog::orderBy('created_at', 'desc')->paginate(10);
+
+        return view('home',['blogs'=> $blogs]);
         }
     }
 
@@ -41,13 +43,15 @@ class AdminController extends Controller
 
             return view('blogsUpload');
         } else {
-            return view('home');
+        $blogs = Blog::orderBy('created_at', 'desc')->paginate(10);
+
+        return view('home',['blogs'=> $blogs]);
         }
     }
     public function uploadBlogs(Request $request)
     {
         $admin_email = $request->user()->email;
-        dd($request->hasFile('blog_image'));
+        // dd($request->hasFile('blog_image'));
         $this->validateBlog($request);
         $data = $request->all();
         $blog = Blog::create($data);
@@ -58,7 +62,9 @@ class AdminController extends Controller
             }
             return view('blogsUpload');
         } else {
-            return view('home');
+        $blogs = Blog::orderBy('created_at', 'desc')->paginate(10);
+
+        return view('home',['blogs'=> $blogs]);
         }
     }
     private function validateBlog($request)

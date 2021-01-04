@@ -82,7 +82,7 @@
                 </ul>
             </div>
             <div class="sidebar-subscribe">
-                <input type="text" placeholder="Email">
+                {{-- <input type="text" placeholder="Email"> --}}
                 <button><i class="fa fa-long-arrow-right"></i></button>
             </div>
             <div class="social-link">
@@ -552,7 +552,6 @@
         </div>
     </div>
     <!-- party-box-area end -->
-
     <!-- news area Start -->
     <div class="home-news-area padding-top-115" id="blogdiv">
         <div class="container">
@@ -566,97 +565,29 @@
             <div class="row">
                 <div class="swiper-slider swiper-container two">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide image-overlay">
-                            <div class="news-item-style-03">
-                                <div class="thumb">
-                                    <img src="/images/blog/b1.png" alt="news">
-                                    <div class="small-thumb">
-                                        <img src="/images/blog/sm1.png" alt="small thumb">
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <p class="subtitle">Politics</p>
-                                    <h4 class="title"><a href="blog-details.html">OMB and State department officials subpoenaed in House...</a></h4>
-                                    <ul class="blog-meta d-flex flex-column flex-lg-row">
-                                        <li><a href="#">25 December 2019</a></li>
-                                        <li><a href="#">Read 4576</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide image-overlay">
-                            <div class="news-item-style-03">
-                                <div class="thumb">
-                                    <img src="/images/blog/b2.jpg" alt="news">
-                                    <div class="small-thumb">
-                                        <img src="/images/blog/sm2.png" alt="small thumb">
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <p class="subtitle">Politics</p>
-                                    <h4 class="title"><a href="blog-details.html">DNC raises qualifying thresholds for sixth Democratic debate.</a></h4>
-                                    <ul class="blog-meta d-flex flex-column flex-lg-row">
-                                        <li><a href="#">23 August 2019</a></li>
-                                        <li><a href="#">Read 4576</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide image-overlay">
-                            <div class="news-item-style-03">
-                                <div class="thumb">
-                                    <img src="/images/blog/b3.jpg" alt="news">
-                                    <div class="small-thumb">
-                                        <img src="/images/blog/sm3.png" alt="small thumb">
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <p class="subtitle">Politics</p>
-                                    <h4 class="title"><a href="blog-details.html">Key chairs call to cancel press conference on</a></h4>
-                                    <ul class="blog-meta d-flex flex-column flex-lg-row">
-                                        <li><a href="#">20 January 2019</a></li>
-                                        <li><a href="#">Read 4576</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                        @foreach ($blogs as $blog)
 
+                        {{-- {{$blog->blog_image}} --}}
                         <div class="swiper-slide image-overlay">
                             <div class="news-item-style-03">
                                 <div class="thumb">
-                                    <img src="/images/blog/b4.jpg" alt="news">
+                                    <img src={{$blog->getFirstMediaUrl('blog_image')}} >
                                     <div class="small-thumb">
-                                        <img src="/images/blog/sm1.png" alt="small thumb">
+                                        {{-- <img src={{$blog->blog_image['original']}} alt="small thumb"> --}}
                                     </div>
                                 </div>
                                 <div class="content">
-                                    <p class="subtitle">Politics</p>
-                                    <h4 class="title"><a href="blog-details.html">Graham announces resolution House impeachment inquiry</a></h4>
+                                    <p class="subtitle">{{$blog->header}}</p>
+                                    <h4 class="title"><a href="blog-details.html">{{$blog->description}}</a></h4>
                                     <ul class="blog-meta d-flex flex-column flex-lg-row">
-                                        <li><a href="#">10 February 2019</a></li>
-                                        <li><a href="#">Read 4576</a></li>
+                                        {{-- <li><a href="#">25 December 2019</a></li> --}}
+                                        {{-- <li><a href="#">Read 4576</a></li>/ --}}
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide image-overlay">
-                            <div class="news-item-style-03">
-                                <div class="thumb">
-                                    <img src="/images/blog/b2.jpg" alt="news">
-                                    <div class="small-thumb">
-                                        <img src="/images/blog/sm2.png" alt="small thumb">
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <p class="subtitle">Politics</p>
-                                    <h4 class="title"><a href="blog-details.html">Key chairs call to cancel press conference on</a></h4>
-                                    <ul class="blog-meta d-flex flex-column flex-lg-row">
-                                        <li><a href="#">25 September 2019</a></li>
-                                        <li><a href="#">Read 4576</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                        @endforeach
+
                     </div>
                     <div class="swiper-button-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
                     <div class="swiper-button-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
