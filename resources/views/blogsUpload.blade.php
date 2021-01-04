@@ -33,16 +33,20 @@
   </nav>
 <!-- navbar end-->
 
-    <form method="POST" action="{{url('/admin/create-upload-blogs')}}" style="padding: 10%;">
+    <form method="POST" action="{{url('/admin/create-upload-blogs')}}" enctype="multipart/form-data" , style="padding: 10%;">
+        @csrf
         <div class="form-group">
             <label for="exampleFormControlFile1">Choose File</label>
-            <input type="file" class="form-control-file" required id="exampleFormControlFile1">
+            <input type="file" class="form-control-file" name="blog_image" required >
         </div>
 
         <div class="form-group" style="margin-top: 5;">
-          <label for="exampleFormControlTextarea1">Description</label>
-          <textarea class="form-control" required id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
+            <label for="exampleFormControlTextarea1">Header</label>
+            <input class="form-control" required  name="header" rows="3"></input>
+          </div><div class="form-group" style="margin-top: 5;">
+            <label for="exampleFormControlTextarea1">Description</label>
+            <textarea class="form-control" required id="exampleFormControlTextarea1" name="description" rows="3"></textarea>
+          </div>
         <button type="submit" class="btn btn-dark" style="margin-left:40%;margin-top: 5%; width: 10%;">Submit</button>
       </form>
 </body>

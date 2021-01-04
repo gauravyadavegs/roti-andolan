@@ -2,12 +2,14 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
 use Illuminate\Database\Eloquent\Model;
 
-class Blog extends Model
+class Blog extends Model implements HasMedia
 {
-    protected $fillable = ['description'];
+    use InteractsWithMedia;
+    protected $fillable = ['description','header'];
 
     protected $appends = ['blog_image'];
 
