@@ -3269,7 +3269,7 @@
         },
         {
             "name": "spatie/laravel-medialibrary",
-            "version": "9.0.0",
+            "version": "6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-medialibrary.git",
@@ -3292,7 +3292,7 @@
                 "illuminate/support": "^7.0|^8.0",
                 "league/flysystem": "^1.0.64",
                 "maennchen/zipstream-php": "^1.0|^2.0",
-                "php": "^7.4|^8.0",
+                "php": "^7.3|^8.0",
                 "spatie/image": "^1.4.0",
                 "spatie/temporary-directory": "^1.1",
                 "symfony/console": "^4.4|^5.0"
