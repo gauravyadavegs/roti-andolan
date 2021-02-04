@@ -34,7 +34,6 @@ class HomeController extends Controller
     public function getHomePage()
     {
         $blogs = Blog::orderBy('created_at', 'desc')->paginate(10);
-        // dd($blogs[0]->blog_image['original']);
         return view('home',['blogs'=> $blogs]);
     }
 }

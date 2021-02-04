@@ -13,7 +13,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="{{url('/admin/upload-blogs')}}">Upload Blogs</a>
+      <a class="navbar-brand" href="{{url('/admin')}}">Members List</a>
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item active">
           {{-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> --}}
@@ -32,6 +32,12 @@
     </div>
   </nav>
 <!-- navbar end-->
+
+@if(session()->has('success'))
+    <div class="alert alert-success">
+        {{ session()->get('success') }}
+    </div>
+@endif
 
     <form method="POST" action="{{url('/admin/create-upload-blogs')}}" enctype="multipart/form-data" , style="padding: 10%;">
         @csrf

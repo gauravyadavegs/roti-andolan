@@ -571,7 +571,11 @@
                         <div class="swiper-slide image-overlay">
                             <div class="news-item-style-03">
                                 <div class="thumb">
-                                    <img src={{$blog->getFirstMediaUrl('blog_image')}} >
+                                    @php
+                                        // dd($blog->getFirstMediaUrl('blog_image'));
+                                    @endphp
+                                    {{-- <img src={{$blog->getFirstMediaUrl('blog_image')}} > --}}
+                                    <img src="http://localhost:8000/storage/3/8c38e37d-e8b9-48dd-a9a8-65083a6115e5.jpg" >
                                     <div class="small-thumb">
                                         {{-- <img src={{$blog->blog_image['original']}} alt="small thumb"> --}}
                                     </div>

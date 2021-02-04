@@ -30,9 +30,9 @@ class AdminController extends Controller
             $members_list = Member::paginate(100);
             return view('membersList', ['members' => $members_list]);
         } else {
-        $blogs = Blog::orderBy('created_at', 'desc')->paginate(10);
+            $blogs = Blog::orderBy('created_at', 'desc')->paginate(10);
 
-        return view('home',['blogs'=> $blogs]);
+            return view('home', ['blogs' => $blogs]);
         }
     }
 
@@ -41,18 +41,21 @@ class AdminController extends Controller
         $admin_email = $request->user()->email;
         if ($admin_email == 'admin@rotiandolan.com') {
 
-            return view('blogsUpload');
+            return
+            // redirect()->back()->with('success', 'blog uploaded successfully');
+             view('blogsUpload');
         } else {
-        $blogs = Blog::orderBy('created_at', 'desc')->paginate(10);
+            // return redirect()->back()->with('error', 'Something went wrong');
+            $blogs = Blog::orderBy('created_at', 'desc')->paginate(10);
 
-        return view('home',['blogs'=> $blogs]);
+            return view('home',['blogs'=> $blogs]);
         }
     }
     public function uploadBlogs(Request $request)
     {
         $admin_email = $request->user()->email;
-        // dd($request->hasFile('blog_image'));
-        $this->validateBlog($request);
+        // $this->validateBlog($request);
+
         $data = $request->all();
         $blog = Blog::create($data);
         if ($admin_email == 'admin@rotiandolan.com') {
@@ -60,17 +63,17 @@ class AdminController extends Controller
             if ($request->hasFile('blog_image')) {
                 $blog->addMedia($request->file('blog_image'))->toMediaCollection('blog_image');
             }
-            return view('blogsUpload');
-        } else {
-        $blogs = Blog::orderBy('created_at', 'desc')->paginate(10);
+            return redirect()->back()->with('success', 'blog uploaded successfully');
 
-        return view('home',['blogs'=> $blogs]);
+        } else {
+            return redirect()->back()->with('error', 'Something went wrong');
+
         }
     }
     private function validateBlog($request)
     {
         $request->validate([
-            'description' => 'required|max:100'
+            'description' => 'required|max:1000'
         ]);
     }
 }

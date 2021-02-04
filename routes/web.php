@@ -27,5 +27,6 @@ Auth::routes();
 Route::get('/admin',[App\Http\Controllers\AdminController::class,'index']);
 Route::get('/admin/upload-blogs',[App\Http\Controllers\AdminController::class,'uploadBlogsPage']);
 Route::post('/admin/create-upload-blogs',[App\Http\Controllers\AdminController::class,'uploadBlogs']);
+Route::get('/members-list/download-members-list',[App\Http\Controllers\MemberController::class,'membersListExcel']);
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
