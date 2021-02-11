@@ -477,7 +477,7 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="candidate-img">
-                                <img src="/images/1.jpg" alt="">
+                                <img src="/images/founderpic.jpeg" alt="">
                             </div>
                         </div>
                         <div class="col-lg-5 offset-lg-1 align-self-center">
@@ -491,7 +491,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12">
+                {{-- <div class="col-lg-12"> --}}
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="candidate-img">
@@ -500,14 +500,29 @@
                         </div>
                         <div class="col-lg-5 offset-lg-1 align-self-center">
                             <div class="content-box-style-04">
-                                <p class="section-subtitle">Feedback</p>
-                                <h2 class="section-title">What people say about party...</h2>
-                                <p class="description">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet, adip sicing elit, sed do eiusmod incididunt".</p>
-                                <span class="name">Jane Smith</span>
-                                <span class="post">Director</span>
+                                 <!-- <p class="section-subtitle">About Us</p> -->
+                                 <h2 class="section-subtitle">About the Founder</h2>
+                                 <p class="description">Mr. Sukhbir Sharma is an eminent personality associated with a host of social and labour organizations and has a number of achievements to his credit. Born and raised in a farmer’s family he could feel the pain of a person who is deprived of food.
+                                     Mr. Sharma has initiated the Roti Movement to ensure food for
+                                     everyone as the first and foremost right.
+                                     He was the Founder Chairman of Delhi Labour Welfare Board, Government of NCT of Delhi. Besides, he held various senior positions in Government bodies and boards namely,
+
+                                 </p>
+                                 <ul class="description">
+                                     <li>National Convener of National Legal Services Authority (NALSA), Government of India </li>
+                                     <li>Chairman of Safety Committee of Delhi, Government of NCT of Delhi.</li>
+                                     <li>Member of National Road Safety Council, Government of India </li>
+                                     <li>Member of Advisory Board, Delhi Transport Corporation, Government of NCT of Delhi</li>
+                                 </ul>
+                                 <p class="description">
+                                     Mr. Sukhbir Sharma has proved his prominence in distinctive affairs in the country. And under his leadership and guidance, the Roti Movement will set a new milestone in the social upliftment of the country.
+
+                                 </p>
+                                 <!-- <span class="name">Dany Qadek</span> -->
+                                 <!-- <span class="post">Founder</span> -->
                             </div>
                         </div>
-                    </div>
+                    {{-- </div> --}}
                 </div>
                 <div class="col-lg-12">
                     <div class="row">
