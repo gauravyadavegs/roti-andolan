@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('home',[HomeController::class, 'getHomePage'])->name('home');
+Route::get('/get-blog',[App\Http\Controllers\HomeController::class,'getBlog']);
 Route::post('/create-volanteer',[MemberController::class,'createNewVolanteer']);
 
 

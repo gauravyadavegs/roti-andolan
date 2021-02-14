@@ -34,6 +34,14 @@ class HomeController extends Controller
     public function getHomePage()
     {
         $blogs = Blog::orderBy('created_at', 'desc')->paginate(10);
-        return view('home',['blogs'=> $blogs]);
+        return view('home', ['blogs' => $blogs]);
+    }
+    public function getBlog(Request $request)
+    {
+        $data = $request->query();
+        $blog_id = $data['id'];
+
+        $blog = Blog::where('id', $blog_id)->first();
+        return response($blog);
     }
 }
