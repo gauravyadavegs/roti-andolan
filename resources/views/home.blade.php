@@ -127,7 +127,7 @@
 
                         <!-- <li><a href="#">Home</a></li> -->
                         <li><a href="#aboutdiv">About Us</a></li>
-                        <li><a href="#aboutdiv">Latest News</a></li>
+                        <li><a href="#blogdiv">Latest News</a></li>
 
                         <li><a href="#contactdiv">Contact Us</a></li>
                         <li><button style="background-color: transparent ; border-color:transparent" type="button"
@@ -881,7 +881,11 @@
         })();
     </script>
     <script>
+            var isRequestHit = false;
+
         function getBlog(blog_id) {
+            if(isRequestHit == false){
+                isRequestHit = true;
             $("#blog_modal").prop("disabled", true);
             $.ajax({
                 url: `/get-blog?id=${blog_id}`,
@@ -891,24 +895,14 @@
                 document.getElementById('image_view').src = data.blog_image.original;
                 document.getElementById('blog_heading').innerHTML = data.header;
                 document.getElementById('blog_description').innerHTML = data.description;
-                $("#blog_modal").prop("disabled", false);
-
-
-                // debugger;
-
-                //                 var tempLink = document.createElement("a");
-                //                     tempLink.style.display = "none";
-                //                     tempLink.href = data.file;
-                //                     tempLink.setAttribute("download",data.name);
-                //                     if (typeof tempLink.download === "undefined") {
-                //                         tempLink.setAttribute("target", "_blank");
-                //                     }
-                //                     document.body.appendChild(tempLink);
-                //                     tempLink.click();
-                //                     document.body.removeChild(tempLink);
+                isRequestHit = false;
             }).fail(function (jqXHR, textStatus, errorThrown) {
+                isRequestHit = false;
+
                 swal("Error!", "something went wrong")
             })
+            }
+
         }
 
     </script>

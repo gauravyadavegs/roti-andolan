@@ -95,24 +95,32 @@
     <script src="/js/script.js"></script>
     <script src="/js/main.js"></script>
     <script>
+        var isRequestedTrue = false;
         $(document).on('click', '#excel_button', function (event) {
-            $.ajax({
-                url: "members-list/download-members-list",
-                type: "GET",
-            }).done(function (data, textStatus, errorThrown) {
-                var tempLink = document.createElement("a");
-                    tempLink.style.display = "none";
-                    tempLink.href = data.file;
-                    tempLink.setAttribute("download",data.name);
-                    if (typeof tempLink.download === "undefined") {
-                        tempLink.setAttribute("target", "_blank");
-                    }
-                    document.body.appendChild(tempLink);
-                    tempLink.click();
-                    document.body.removeChild(tempLink);
-            }).fail(function (jqXHR, textStatus, errorThrown) {
-                swal("Error!", "something went wrong")
-            })
+            if (isRequestedTrue = false) {
+                isRequestedTrue = true;
+                $.ajax({
+                    url: "members-list/download-members-list",
+                    type: "GET",
+                }).done(function (data, textStatus, errorThrown) {
+                    var tempLink = document.createElement("a");
+                    tempLink.style.display = "none";
+                    tempLink.href = data.file;
+                    tempLink.setAttribute("download", data.name);
+                    if (typeof tempLink.download === "undefined") {
+                        tempLink.setAttribute("target", "_blank");
+                    }
+                    document.body.appendChild(tempLink);
+                    tempLink.click();
+                    document.body.removeChild(tempLink);
+                    isRequestedTrue = false;
+                }).fail(function (jqXHR, textStatus, errorThrown) {
+                    isRequestedTrue = false;
+
+                    swal("Error!", "something went wrong")
+                })
+            }
+
         })
 
     </script>
