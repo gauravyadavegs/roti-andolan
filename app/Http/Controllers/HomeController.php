@@ -44,4 +44,13 @@ class HomeController extends Controller
         $blog = Blog::where('id', $blog_id)->first();
         return response($blog);
     }
+
+    /**
+     * get terms and conditions
+     * called from request
+     * login not needed
+     */
+    public function getTermsAndConditions(){
+        return view('termsAndConditions');
+    }
 }

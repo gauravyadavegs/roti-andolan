@@ -51,19 +51,6 @@
             </div>
         </div>
     </div>
-    <!-- preloader area end -->
-
-    <!-- search Popup -->
-    <!-- <div class="body-overlay" id="body-overlay"></div>
-    <div class="search-popup" id="search-popup">
-        <form action="index.html" class="search-form">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search.....">
-            </div>
-            <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
-        </form>
-    </div> -->
-    <!-- //. search Popup -->
 
     <!--sidebar menu start-->
     <div class="sidebar-menu" id="sidebar-menu">
@@ -240,18 +227,92 @@
             <div class="row">
                 <div class="col-lg-5">
                     <div class="content-box-style-01">
-                        <p class="section-subtitle">Support us</p>
-                        <h2 class="title">Support Us With Your Fund.</h2>
-                        <p class="para">Roti can spawn revolutions. Bread shortage played a role in the French
-                            Revolution.
-                            Let us not forget the lessons of history. It is not clothes or a roof above the head that
-                            man needs first.
-                            It is roti.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <p class="section-subtitle">Terms &Conditions</p>
+
+                        <p class="para">Please read these Terms of Use carefully as they apply to your use of the EGS website ("Website").
+
+                            By using the Website, you agree to be bound by these Terms of Use which form a legally binding agreement between you and EGS. If you do not want to be bound by these Terms of Use, do not continue to use this Website.
+
+                            Further, we may amend these Terms of Use at any time. Your continued use of the Website is considered to be acceptance of the amended Terms of Use.
+
+                        </p>
+                        <h2 class="title">Disclaimer.</h2>
+                        <p class="para">
+
+                            EGS Education Limited (“EGS”) tries to make the information published on this website as accurate as possible. However, the information on this website is provided on an “as is” basis without any express or implied warranty. There is no guarantee given as to the accuracy or currency of any individual item on this website.
+
+                            Persons accessing the website who require confirmation of information should refer to EGS’s source for information on this website or should contact an EGS representative. EGS does not accept responsibility for any loss or damage occasioned by use of the information published on the website nor from any access to the website. All access and use is at the risk of the user. EGS makes no representation that this website or any linked website is free from viruses, malware, Trojan horses etc. We recommend that you obtain appropriate virus protection and check for such viruses before accessing or downloading any content.
+
+                        </p>
+                        <h2 class="title">EGS Copyright</h2>
+                        <p class="para">
+                            The material on this Website, including all information such as text, graphics, images, photographs and sound, is protected by copyright pursuant to the Copyright Act 1968 (Cth), as amended from time to time and the laws of other countries. You must not alter, reproduce, store in retrieval system or transmit the material on this Website or any part thereof, unless authorised by EGS in writing or permitted by the Copyright Act 1968 (Cth).
+                        </p>
+                        <h2 class="title">Trade marks</h2>
+                        <p class="para">
+                            All trademarks that are included on this Website are the property of their respective owners and are protected by relevant laws in Australia and other countries. You must not use any of these trade marks (including the reproduction, modification, distribution, repudiation, display or communication of these trade marks) except by saving or printing out a copy of this Website for personal non-commercial use, unless expressly authorised by EGS or the owner of the relevant trade mark in writing.
+                        </p>
+                        <h2 class="title">Links from this Website</h2>
+                        <p class="para">
+                            The external linked websites within the Website are not within the control of EGS. EGS does not take responsibility for the content in, or currency of, any externally linked sites. A link on the Website neither implies endorsement by EGS of the linked website, nor a relationship with the organisation linked.
+                        </p>
+                        <h2 class="title">SPAM</h2>
+                        <p class="para">
+                            EGS publishes electronic addresses on this Website to facilitate communication relating to our business functions. This is not to be inferred as consent by EGS or the relevant addresses to receiving unsolicited commercial messages or SPAM as referred to in the Spam Act 2003 (Cth) or under the law of any other country.
+                        </p>
+                        <h2 class="title">Privacy</h2>
+                        <p class="para">
+                            EGS’s Privacy Policy applies solely to information collected by us and may differ from the policies of other companies’ or organisations’ websites that you link to from this website. Please read the privacy policy of any other companies’ or organisations’ website that you link to from our website.
+                        </p>
+                        <h2 class="title">Liability</h2>
+                        <p class="para">
+                            EGS makes no warranties or representations about this Website or any of its content. EGS is not responsible to you or anyone else for any damages of any kind, including (but not limited to) any direct or consequential loss and losses resulting from security failure, disclosure of confidential information by other parties or the transmission of a computer virus, suffered in connection with the use of this Website whether based on breach of contract or warranty, tort (including negligence), product liability or otherwise ,even if EGS is informed in advance of the possibility of such damages. EGS excludes, to the extent permitted by law, any liability which may arise as a result of the use of this Website. By using the Website, you agree to indemnify EGS for any loss or liability arising out of your use. Use of the Website is at your own risk and you assume full responsibility and risk of loss resulting from your downloading, use of, or access to data, files, information, or other material on or through the Website.
+                        </p>
+                        <h2 class="title">User-generated Content Terms of Use</h2>
+                        <p class="para">
+                            Please read these Terms of Use carefully, as they apply to your submitting content to EGS Education Ltd (“EGS”) social networks, websites and other forms of media (“User-generated Websites”). EGS owns and/or operates various User-generated Websites that permit users to submit, post, publish, tag or upload (“Submit”) content, which may include, but is not limited to, comments, graphics, information, photos, reviews, text, videos or any combination thereof (collectively, “Content”).
+                        </p>
+                        {{-- <h2 class="title">User-generated Content Terms of Use</h2> --}}
+                        <p class="para">
+                        When you Submit Content to a User-generated Website, you accept and agree to be bound by these Terms of Use, which form a legally binding agreement between you and EGS. If you do not want to be bound by these Terms of Use, do not Submit Content.
+
+                        In particular, but without limitation, you confirm the following:
+                        You are granting EGS and its affiliates the right to use your Content on their social networks, websites and other forms of media described below, indefinitely;
+                        You created the Content or have permission from the creator of the Content to grant the right to use the Content;
+                        You have all necessary rights and permissions to grant the right to use the Content with respect to all individuals appearing in the Content;
+                        You are at least 18 years of age.
+                        Further, we may amend these Terms of Use at any time. Your continued use of the Website is considered to be acceptance of the amended Terms of Use.
+                        </p>
+                        <h2 class="title">Content</h2>
+                        <p class="para">
+                            When you Submit your Content, you authorise EGS and its affiliates a non-exclusive, fully paid-up, irrevocable, perpetual, royalty-free, worldwide license (including the right to sub-license through multiple tiers) to use, adapt, display, distribute, modify, process, prepare derivative works, publicly display, publicly perform, publish, reproduce and transmit your Content, in part or in full, in any form, medium or distribution method, for any purpose, including without limitation, any purpose relating to the advertising, marketing, and promotion of EGS’s and its affiliates’ goods and services. These uses may include, but are not limited to, posting your Content on social networks or websites, transmitting your Content via emails, displaying your Content on computers or mobile devices, or reproducing your Content in print.
                         </p>
                         <p class="para">
-                            We appeal to and invite individuals to join us. We encourage and motivate corporates to help
-                            in any way they can so that we can keep food flowing to those who need it the most.
-
+                            Any Content you Submit is, and will be treated as, non-confidential and non-proprietary. EGS may use any Content you Submit and reproduce it for any purpose. Specifically, EGS is free to use for any purposes whatsoever (including, but not limited to, the advertising, developing, manufacturing and marketing of products and services) any artwork, concepts, ideas or suggestions contained in any Content you Submit. Any such use is without compensation to you. By Submitting Content, you are also warranting that you own the Content Submitted and that EGS’s use will not violate any third party's rights or otherwise place us in breach of any applicable laws. EGS is under no obligation to use the information Submitted. You understand that EGS employs both internal and external resources which may have developed or may in the future develop ideas identical or similar to your Content and that EGS is only willing to consider the Content on these terms.
+                        </p>
+                        <h2 class="title">Website Terms of Use</h2>
+                        <p class="para">
+                            In addition to these User-generated Content Terms of Use, you agree to be bound by EGS’s Website Terms of Use above.
                         </p>
                     </div>
                 </div>
@@ -279,357 +340,13 @@
     </div>
     <!-- support area end  -->
 
-    <!-- service start -->
-    <div class="our-service-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="icon-box-style-06 text-center">
-                        <div class="sb-icon">
-                            <a href="#"><i class="flaticon-volunteer"></i></a>
-                        </div>
-                        <div class="sb-content">
-                            <h4 class="title">Join movement as volunteer</h4>
-                            <div class="btn-wrapper"><button type="button" class="btn btn-custom-primary"
-                                    data-toggle="modal" data-target="#staticBackdrop">
-                                    Be Volunteer
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="icon-box-style-06 text-center">
-                        <div class="sb-icon">
-                            <a href="#"><i class="flaticon-achievement"></i></a>
-                        </div>
-                        <div class="sb-content">
-                            <h4 class="title">Our manifesto and <br> vision.</h4>
-                            <div class="btn-wrapper">
-                                <a class="btn btn-custom-primary" href="#aboutdiv">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="icon-box-style-06 text-center">
-                        <div class="sb-icon">
-                            <a href="#"><i class="flaticon-financial"></i></a>
-                        </div>
-                        <div class="sb-content">
-                            <h4 class="title">Donate and <br> help us</h4>
-                            <div class="btn-wrapper">
-                                <a class="btn btn-custom-primary" href="#">Get Register</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- service end -->
 
-    <!-- location area start -->
-    <div class="location-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="section-title">We're in whole country <br>with your needs</h2>
-                </div>
-            </div>
-            <div class="row margin-top-55 margin-bottom-100">
-                <div class="col-lg-6">
-                    <div class="map-img">
-                        <img src="/images/india.jpeg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-5 offset-lg-1 align-self-center">
-                    <div class="location-content">
-                        <p>Food is essential to satisfy hunger and only when hunger is satisfied a man can get down to
-                            do something productive and advance higher in life. This movement is for bread or, as we
-                            call it in India, Roti. Welcome to the Roti Movement.
-                        </p>
-                        <br>
-                        <div class="btn-wrapper">
-                            <a class="btn btn-custom-primary" href="#">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="section-title">Roti is our right</h2>
-                </div>
-            </div>
-            <div class="row margin-top-55 margin-bottom-100">
-
-                <div class="col-lg-5 offset-lg-1 align-self-center">
-                    <div class="location-content">
-                        <p>Everyone is entitled to at least one square meal a day, if not two. Roti is our right. How can you expect people to feel nationalistic or spiritual or lean towards education on an empty stomach? First give roti to everyone. Then give Rozi. Then expect development. Let us join hands to start a roti revolution throughout the country. We are starting this Roti Movement in India and welcome everyone to join hands. It is our hunger project for the masses.
-
-                        </p>
-                        <br>
-                        <div class="btn-wrapper">
-                            <a class="btn btn-custom-primary" href="#">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-    </div>
-    <!-- location area end -->
-
-    <!-- organization area start -->
-    <div class="politx-content-area" id="aboutdiv" style="scroll-behavior:smooth;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 align-self-center">
-                    <div class="content-box-style-01">
-                        <p class="section-subtitle">About us</p>
-                        <h2 class="title">Organization for action</h2>
-                        <p class="description">How does any movement start? A few friends get together and start
-                            talking. This is what we did and how the Roti Movement germinated in our minds. Appalled by
-                            the experience of watching millions go hungry in the ongoing pandemic we decided we could
-                            and should do something.
-                            After all, it is not mission impossible.</p>
-                        <p class="description">Roti Movement has at its core people with faith in humanity, in beliefs
-                            that if you wish you can translate thought to action. To paraphrase a saying, it only takes
-                            a few good men to do something and rest of humanity will follow. We started this Roti
-                            Movement Project with the express aim of giving utmost priority to food as the most primary
-                            and basic requirement for survival.
-                        </p>
-                        <div class="btn-wrapper padding-top-30">
-                            <a class="btn btn-custom-primary" href="#">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 offset-lg-1">
-                    <div class="ab-thumb">
-                        <img src="/images/2.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- organization area end -->
 
 
 
-    <!-- member start -->
-    <div class="about-member-count padding-top-135 padding-bottom-90">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="icon-box-style-02 text-center margin-bottom-30 margin-top-50">
-                        <div class="sb-icon">
-                            <a href="#"><i class="flaticon-notes"></i></a>
-                        </div>
-                        <div class="sb-content">
-                            <h4 class="title countdown">500</h4>
-                            <p>Registered Members</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="icon-box-style-02 text-center margin-bottom-30">
-                        <div class="sb-icon">
-                            <a href="#"><i class="flaticon-volunteer"></i></a>
-                        </div>
-                        <div class="sb-content">
-                            <h4 class="title countdown">23</h4>
-                            <p>Campaign Done</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="icon-box-style-02 text-center margin-bottom-30 margin-top-75">
-                        <div class="sb-icon">
-                            <a href="#"><i class="flaticon-seo"></i></a>
-                        </div>
-                        <div class="sb-content">
-                            <h4 class="title countdown">15</h4>
-                            <p>Coverage Areas</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="icon-box-style-02 text-center margin-bottom-30 margin-top-25">
-                        <div class="sb-icon">
-                            <a href="#"><i class="flaticon-place"></i></a>
-                        </div>
-                        <div class="sb-content">
-                            <h4 class="title countdown">100</h4>
-                            <p>Donors</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- member end -->
 
-    <!-- wealfer start -->
-    <!-- <div class="wealfer-area d-flex align-items-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-6 align-self-center">
-                    <div class="content-box-style-03">
-                        <p class="section-subtitle">Wealfer</p>
-                        <h2 class="section-title">Braile literacy tool for blind people.</h2>
-                        <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do incididunt ut labore et dolore magna aliqua. Ut enim ad minim, turnkey applications</p>
-                        <div class="btn-wrapper">
-                            <a href="causes.html">View all cases </a>➝
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 offset-lg-1 col-md-6">
-                    <div class="wealfare-box">
-                        <div class="loader-area">
-                            <canvas class="loader1"></canvas>
-                        </div>
-                        <p class="wf-text1">Raised $54872</p>
-                        <p class="wf-text2">Target $3544355</p>
-                        <div class="btn-wrapper margin-top-50">
-                            <a class="btn btn-red" href="donate.html">Donate Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- wealfer end -->
-
-    <!-- candidate area start -->
-    <div class="candidate-area position-relative">
-        <div class="container">
-            <div class="row candidate-slider">
-                <div class="col-lg-12">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="candidate-img">
-                                <img src="/images/founderpic.jpeg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-lg-5 offset-lg-1 align-self-center">
-                            <div class="content-box-style-04">
-                                <h2 class="section-subtitle">About the Founder</h2>
-                                <p class="description">Mr. Sukhbir Sharma is an eminent personality associated with a
-                                    host of social and labour organizations and has a number of achievements to his
-                                    credit. Born and raised in a farmer’s family he could feel the pain of a person who
-                                    is deprived of food.
-                                    Mr. Sharma has initiated the Roti Movement to ensure food for
-                                    everyone as the first and foremost right.
-                                    He was the Founder Chairman of Delhi Labour Welfare Board, Government of NCT of
-                                    Delhi. Besides, he held various senior positions in Government bodies and boards
-                                    namely,
-
-                                </p>
-                                <ul class="description">
-                                    <li>National Convener of National Legal Services Authority (NALSA), Government of
-                                        India </li>
-                                    <li>Chairman of Safety Committee of Delhi, Government of NCT of Delhi.</li>
-                                    <li>Member of National Road Safety Council, Government of India </li>
-                                    <li>Member of Advisory Board, Delhi Transport Corporation, Government of NCT of
-                                        Delhi</li>
-                                </ul>
-                                <p class="description">
-                                    Mr. Sukhbir Sharma has proved his prominence in distinctive affairs in the country.
-                                    And under his leadership and guidance, the Roti Movement will set a new milestone in
-                                    the social upliftment of the country.
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- candidate area end -->
-
-
-
-    <!-- party-box-area start -->
-    <div class="party-box-area padding-top-120">
-        <div class="container">
-            <div
-                class="col-lg-12 party-box-wrapper d-flex flex-lg-row flex-column justify-content-lg-between justify-content-center text-lg-left text-center">
-                <div class="party-box-content">
-                    <h4>Be the part<br> of our change. </h4>
-                    <p>Roti is the first need, First give us roti.Then talk about anything
-                        else, and we will get ready to listen to everything else.</p>
-                </div>
-                <div class="btn-wrapper align-self-center">
-                    <button type="button" class="btn btn-custom-primary" data-toggle="modal"
-                        data-target="#staticBackdrop">
-                        Become a Volunteer
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- party-box-area end -->
-    <!-- news area Start -->
-    <div class="home-news-area padding-top-115" id="blogdiv">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="text-center padding-bottom-40">
-                        <h2 class="section-title">Read latest blog</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="swiper-slider swiper-container two">
-                    <div class="swiper-wrapper">
-                        @foreach ($blogs as $blog)
-
-                        {{-- {{$blog->blog_image}} --}}
-                        <div class="swiper-slide image-overlay">
-                            <div class="news-item-style-03">
-                                <div class="thumb">
-                                    @php
-                                    // dd($blog->getFirstMediaUrl('blog_image'));
-                                    @endphp
-                                    {{-- <img src={{$blog->getFirstMediaUrl('blog_image')}} > --}}
-                                    <img src="{{$blog->blog_image['original']}}">
-                                    <div class="small-thumb">
-                                        {{-- <img src={{$blog->blog_image['original']}} alt="small thumb"> --}}
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <p class="subtitle">{{$blog->header}}</p>
-
-                                    <button id="blog_modal" data-bs-toggle="modal" onClick="getBlog({{ $blog->id }})"
-                                        data-bs-target="#exampleModal"
-                                        style="color:#007aff ;border:none ; background-color:#fff">
-                                        Read More ->
-                                        {{-- {{$blog->blog_image}} --}}
-                                        {{-- <a href="blog-details.html">{{$blog->description}}</a> --}}
-                                    </button>
-
-                                </div>
-
-                            </div>
-                            <ul class="blog-meta d-flex flex-column flex-lg-row">
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                @endforeach
-
-            </div>
-            <div class="swiper-button-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
-            <div class="swiper-button-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
-        </div>
-    </div>
-    </div>
-    </div>
-    <!-- news area End -->
 
 
     <!-- footer area start -->
@@ -699,7 +416,7 @@
                                                     aria-hidden="true"></i>Latest News</a></li>
                                         <li><a href="#contactdiv"><i class="fa fa-long-arrow-right"
                                                     aria-hidden="true"></i>Contact Us</a></li>
-                                                    <li><a  href="{{url('/terms-conditions')}}"><i class="fa fa-long-arrow-right"
+                                                    <li><a href="#contactdiv"><i class="fa fa-long-arrow-right"
                                                         aria-hidden="true"></i>Terms & Conditions</a></li>
                                     </ul>
                                 </div>
